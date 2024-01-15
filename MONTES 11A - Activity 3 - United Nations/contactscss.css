@@ -1,0 +1,96 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('IMG_3.jpg');
+    background-size: cover; 
+    background-position: center; 
+    color: #fff; 
+}
+
+.logo-container {
+    display: flex;
+    align-items: left;
+    box-shadow: 0px 10px 10px rgb(189, 69, 125);
+  border-radius: 10px;
+}
+
+.logo {
+    max-width: 100px; 
+    max-height: 100px; 
+    position: absolute;
+    top: 20px;
+    left: 20px; 
+    width: 100px;
+    height: auto
+}
+
+header {
+    background-color: #ffffff;
+    color:rgb(0, 158, 219);
+    padding: 1em;
+    text-align: center;
+}
+.navlist a {
+    color:rgb(0, 158, 219);
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+}
+.navlist a:hover {
+    border-bottom: 2px solid rgb(111, 0, 255)
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color:rgb(0, 158, 219);
+    font-weight: bold;
+}
+
+.main-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 20px;
+}
+.p1class {
+    background-color: #ffffff;
+    color:rgb(0, 158, 219);
+    text-align: center;
+    font-family: monospace}
+
+
+.contact1 {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color:rgb(0, 158, 219);
+    color: rgb(255, 255, 255);
+}
+footer {
+    background-color: rgb(0, 158, 219);
+    color: #ffffff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
